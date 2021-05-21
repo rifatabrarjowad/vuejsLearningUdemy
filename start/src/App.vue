@@ -2,12 +2,11 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
-import SingUp from "./components/SingUp";
-import SingUp from './components/SingUp.vue';
+
+import SingUp from "./components/SingUp.vue";
 export default {
   name: "App",
   components: {
-    SingUp
     SingUp,
   },
 };
